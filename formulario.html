@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="#" method="post">
+        <label for="lnome">Nome:</label>
+        <input type="text" name="nome">
+        <br>
+        <label for="lsenha">Senha:</label>
+        <input type="password">
+        <br>
+
+        <input type="radio" name="opcao" value="s">Sim<br>
+        <input type="radio" name="opcao" value="n">Não<br>
+        <input type="radio" name="opcao" value="t">Talvez<br>
+        <br>
+        <p>Escolha o estilo musical:</p>
+        <input type="checkbox" name="musica" value="rock">Rock<br>
+        <input type="checkbox" name="musica" value="blues">Blues<br>
+        <input type="checkbox" name="musica" value="jazz">Jazz<br>
+        <br>
+        <p>Escolha uma das opções</p>
+        <select name="aceitar">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+            <option value="talvez">Talvez</option>
+        </select>
+        <br>
+        <br>
+        <p>Escolha uma linguagem de programação</p>
+        <input list="disciplinas" name="disciplinas">
+      <datalist id="disciplinas">
+        <option value="Programação">
+        <option value="Banco de dados">
+        <option value="Algoritmo">
+        <option value="Redes">
+        <option value="Cálculo">
+    </datalist>
+<br>
+<br>
+    <p>Escreva seu comentário</p>
+    <textarea rows="3" cols="50" name="comentario" ></textarea>
+    </textarea>
+    <br>
+    <input type="submit" value="Enviar">
+    <br>
+    <br>
+    </form>
+    
+
+
+</body>
+</html>
