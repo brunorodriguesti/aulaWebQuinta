@@ -1,0 +1,23 @@
+.secao1{
+    border: 2px solid black;
+    width: 200px;
+    height: 90px;
+    color:green;
+}
+#secao2{
+    border: 2px solid blue;
+}
+h1{
+    color:purple;
+}
+p{
+    font-size: 40px;
+    color: #196F3D ;
+    border: 2px solid black;
+    padding-left: 100px;
+    padding-top: 100px;
+    margin-left: 100px;
+    text-align: right;
+    background-color: burlywood;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
