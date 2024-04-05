@@ -1,0 +1,18 @@
+.hum {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  transition-property: background, width, height;
+  transition-duration: 5s;
+}
+.hum:hover {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+.dois {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: hidden;
+}

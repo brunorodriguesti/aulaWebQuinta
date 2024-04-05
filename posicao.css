@@ -1,0 +1,11 @@
+.caixa1 {
+  height: 170px;
+  width: 170px;
+  background-color: green;
+  float: right;
+}
+.caixa2 {
+  height: 70px;
+  width: 70px;
+  background-color: red;
+}

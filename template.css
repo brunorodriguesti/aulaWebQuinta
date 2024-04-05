@@ -1,0 +1,45 @@
+BODY {
+  height: 8.5in;
+} /* Este é um comentário*/
+#header {
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  left: 0;
+  border: 2px solid black;
+}
+
+#sidebar {
+  position: fixed;
+  width: 10em;
+  height: auto;
+  top: 15%;
+  right: auto;
+  bottom: 100px;
+  left: 0;
+  border: 2px solid black;
+}
+#main {
+  position: fixed;
+  width: auto;
+  height: auto;
+  top: 15%;
+  right: 0;
+  bottom: 100px;
+  left: 10em;
+  border: 2px solid black;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 2px solid black;
+}
