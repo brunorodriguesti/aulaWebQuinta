@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <img
+      src="carrinho_vazio.png"
+      width="100"
+      height="100"
+      onmouseover="mostrarCheio(this);"
+      onmouseout="mostarVazio(this);"
+    />
+    <br />
+    <form>
+      Letra maiúscula:<br />
+      <textarea name="letra" onKeyUp="maiuscula(this);"> </textarea><br />
+    </form>
+  </body>
+</html>
